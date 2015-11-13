@@ -6,5 +6,8 @@ An AngularJs app wich use the [Epsi ecampus API](https://github.com/tiste/ecampu
 Contribute
 ----------
 
-1. Clone this repos.
-2. run bower install
+1. Clone this repos
+2. Run npm install
+3. Run bower install
+4. Run grunt serve
+5. Code
