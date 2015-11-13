@@ -7,4 +7,4 @@ Contribute
 ----------
 
 1. Clone this repos.
-2.  bower install
+2. run bower install
