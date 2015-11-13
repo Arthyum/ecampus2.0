@@ -1,2 +1,4 @@
-# ecampus2.0
-Une version regardable de l'emplois du temps des EPSIens (Dispo pour toutes les promos de Lille et Arras)
+ecampus 2.0
+===========
+
+An AngularJs app wich use the [Epsi ecampus API](https://github.com/tiste/ecampus)
