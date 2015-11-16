@@ -1,8 +1,15 @@
 <div class="jumbotron">
   <h1>Ecampus 2.0</h1>
   <p class="lead">
-    Bientôt sur votre écran !
+    Bonjour, veuillez sélectionner votre campus
   </p>
+  <select>
+      <option ng-repeat="cps in campus" name="{{cps.name}}" id="{{cps.name}}" value="{{cps.name}}" >{{cps.name}}</option>
+  </select>
+  <p class="lead">Et votre classe</p>
+    <select>
+        <option ng-repeat="class in classes" name="{{class.name}}" id="{{class.name}}" value="{{class.name}}" >{{class.name}}</option>
+    </select>
   <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
 </div>
 
